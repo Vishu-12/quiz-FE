@@ -1,0 +1,33 @@
+.labels input[type="radio"] {
+  display: none;
+}
+.labels {
+  display: inline-block;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.timer-labels {
+  display: inline-block;
+  padding: 5px;
+  cursor: pointer;
+}
+.timer-labels input[type="radio"] {
+  display: none;
+}
+.labels input:checked + span {
+  background-color: #60b84b;
+  color: white;
+  padding: 0.7rem 4rem;
+  border-radius: 10px;
+}
+.timer-labels input:checked + span {
+  background-color: #d60000;
+  color: white;
+  padding: 0.7rem 4rem;
+  border-radius: 10px;
+}
+
+.correctAns input:checked {
+  background-color: #60b84b;
+}

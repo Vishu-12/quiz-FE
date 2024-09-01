@@ -1,0 +1,8 @@
+.inputs:focus {
+  border: none;
+  outline: none;
+}
+/* ::placeholder {
+  color: #d60000;
+  opacity: 1; 
+} */

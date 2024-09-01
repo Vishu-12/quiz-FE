@@ -1,0 +1,142 @@
+.play-ques {
+  background: #041325;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.single-ques {
+  background: white;
+  width: 90%;
+  border-radius: 10px;
+  height: 80vh;
+}
+.options {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+.options-container {
+  display: grid;
+  gap: 50px 100px;
+  grid-template-columns: auto auto;
+  padding: 4rem;
+}
+.ques-heading-container {
+  padding: 3rem;
+}
+.ques-heading {
+  font-size: 35px;
+  font-weight: 700;
+  color: #474444;
+}
+.countNtimer {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 1rem;
+  padding: 4rem 4rem 0rem 4rem;
+  font-size: 35px;
+  font-weight: 700;
+}
+.next-button {
+  padding: 0.5rem 6rem;
+  font-size: 25px;
+  background: #60b84b;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+
+.score {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+.congrats-msg {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.congrats {
+  background: white;
+  width: 90%;
+  border-radius: 10px;
+  height: 80vh;
+}
+.thanks-msg {
+  font-size: 74px;
+  font-weight: 700;
+  color: #474444;
+  width: 50%;
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .play-ques {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .options-container {
+    display: grid;
+    gap: 20px 0px;
+    grid-template-columns: auto auto;
+    padding: 2rem;
+  }
+  .options {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .single-ques {
+    background: white;
+    width: 100%;
+    border-radius: 0px;
+    height: 100%;
+  }
+  .options-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .ques-heading-container {
+    padding: 1.7rem;
+  }
+  .ques-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .countNtimer {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0rem;
+    padding: 1rem;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .next-button {
+    padding: 0.2rem 4rem;
+    font-size: 19px;
+    background: #60b84b;
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
+  .congrats {
+    background: white;
+    width: 100%;
+    border-radius: 0px;
+    height: 100%;
+    padding: 1rem;
+  }
+  .thanks-msg {
+    font-size: 34px;
+
+    width: 75%;
+  }
+}
